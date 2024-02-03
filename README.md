@@ -1,3 +1,3 @@
 # Emailer 
 
-a email sender api 
+An email api 
