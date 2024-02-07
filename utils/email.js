@@ -19,6 +19,8 @@ const transporter = mailer.createTransport({
 
 
 async function main() {
+
+  console.log('hello mailer ');
     // send mail with defined transport object
     const info = await transporter.sendMail({
       from: '"Fred Foo 👻" <foo@example.com>', // sender address
@@ -29,6 +31,7 @@ async function main() {
     });
   
     console.log("Message sent: %s", info.messageId);
+
     // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
   
     //
@@ -38,9 +41,10 @@ async function main() {
     //
 }
   
-main().catch(console.error);  
 
 
-module.exports = main();
+
+
+module.exports = main;
 
 

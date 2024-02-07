@@ -56,12 +56,13 @@ var server = http.createServer((req, res) => {
             }, null, 3));
 
         });
+        email();
     }
 
 
 });
 
-console.log(email);
+
 
 
 
