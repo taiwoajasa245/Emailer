@@ -13,6 +13,7 @@ const transporter = mailer.createTransport({
     tls: {
         rejectUnauthorized: false,
     },
+    connectionTimeout: 10000, 
 });
 
 

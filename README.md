@@ -27,4 +27,10 @@ This is a simple Node.js application for sending emails. It provides a basic HTM
 4. **Test the Application:**
 - Access the application at http://localhost:4040.
 
+### Note: 
+
+if you see an error message "Greeting never received" with a **ETIMEDOUT** code typically indicates that the SMTP client (Nodemailer, in this case) is unable to establish a connection to the SMTP server within a certain timeout period. 
+
+- Ensure that your server has a stable and active internet connection.
+- Confirm that there are no network issues, firewalls, or proxies blocking the connection to the SMTP server.
 
